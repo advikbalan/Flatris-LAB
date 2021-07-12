@@ -7,13 +7,13 @@ trigger:
 - master
 variables:
 # Azure Resource Manager connection created during pipeline creation
-azureSubscription: 'ServiceConnectionName'
+azureSubscription: 'azureadvik'
 # Web app name
-webAppName: 'LinuxApp5601'
+webAppName: 'app01da'
 # Resource group
-resourceGroupName: 'Linux5601RG'
+resourceGroupName: 'cvs_lab_1'
 # Environment name
-environmentName: 'LinuxApp5601'
+environmentName: 'app01da'
 # Agent VM image name
 vmImageName: 'ubuntu-latest'
 stages:
