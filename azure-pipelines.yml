@@ -12,13 +12,13 @@ variables:
   azureSubscription: 'azureadvik'
   
   # Web app name
-  webAppName: 'YourLinuxApp'
+  webAppName: 'adviktestappda'
   
   # Resource group
-  resourceGroupName: 'YourRG'
+  resourceGroupName: 'cvs_lab_1'
  
   # Environment name
-  environmentName: 'YourLinuxApp'
+  environmentName: 'adviktestappda'
  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
